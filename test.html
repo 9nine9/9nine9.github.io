@@ -1,0 +1,62 @@
+       <audio id="audiofile" src="an-nur.mp3" controls></audio><br>
+        <div id="subtitles"></div>
+        <script>
+        ( function(win, doc) {
+            loadJSON("an_nur_35_to_37.json", function(json) {
+                var audioPlayer = doc.getElementById("audiofile");
+                var subtitles = doc.getElementById("subtitles");
+
+			    var syncData = json;
+
+                function createSubtitle(index)
+                {
+                    var element = doc.createElement('span');
+                    element.setAttribute("id", "c_" + index);
+                    element.setAttribute("class", "test");
+                    element.innerText = syncData[index].text + " ";
+                    subtitles.innerHTML = "";
+                    subtitles.appendChild(element);
+                }
+
+                audioPlayer.addEventListener("timeupdate", function(e){
+                    syncData.forEach(function(element, index, array){
+                        if(audioPlayer.currentTime >= element.start && audioPlayer.currentTime <= element.end) {
+                            createSubtitle(index);
+                        }
+                    });
+                });
+            });
+        }(window, document));
+
+        function loadJSON(filename, callback) {   
+		  var xobj = new XMLHttpRequest();
+		  xobj.overrideMimeType("application/json");
+		  xobj.open('GET', filename, true);
+		  xobj.onreadystatechange = function () {
+		    if (xobj.readyState == 4 && xobj.status == "200") {
+		      callback(JSON.parse(xobj.responseText));
+		    }
+		  };
+		  xobj.send(null);  
+		}
+        </script>
+
+
+<style>
+    body, html {
+        height: 100%;
+        background: -webkit-linear-gradient(315deg, #000000, #000000);
+        background: linear-gradient(135deg, #000000, #000000);
+        overflow: hidden;
+        color: white;
+    }
+ 
+    .test {
+        font-size: 24px;
+        font-family: Poiret One;
+        position: relative;
+        top: -webkit-calc(50% - 60px);
+        top: calc(50% - 60px);
+        text-shadow: 0px 0px 3px white;
+    }
+</style>
