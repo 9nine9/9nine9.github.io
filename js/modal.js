@@ -64,13 +64,13 @@ var modalData = [
 		header: "Miko and Sidog",
 		body: "Miko and Sidog merupakan game yang ditujukan untuk meramaikan event MAGE 2018 (Multimedia and Game Event 2018). <br>" +
 		"Game ini dikembangkan oleh divisi Desain & Web MAGE 2018, mas Habib sebagai design artist-nya, mas Billy dan saya sebagai programernya. <br><br>" +
-		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/miko' target='__blank'>Lihat Source Code</a>."
+		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/MikoAndSidog-Game' target='__blank'>Lihat Source Code</a>."
 	},
 	{
 		id: 7,
 		header: "Pendekin",
 		body: "Shorten your link, we serving the highly save for your click on the surfing, my friend..<br><br>" +
-		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/pendekin' target='__blank'>Lihat Source Code</a>."
+		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/Pendekin-ShortenLink' target='__blank'>Lihat Source Code</a>."
 	},
 	{
 		id: 8,
@@ -86,7 +86,7 @@ var modalData = [
 		body: "SoulS adalah game survival horor dengan menerapkan algoritma A* path finding pada NPC (enemy).<br>"+
 		"Di sini saya membuat game ini dari awal sampai akhir, dari desain karakter, penerapan algoritma path finding, music composer, dan programming. <br><br>"+
 		"Anda dapat mengunduh game tersebut pada link berikut <a href='https://www.dropbox.com/s/74wwizqytll45n9/souls.apk?dl=0' target='__blank'>Download</a>. <br>" + 
-		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/sstt-game' target='__blank'>Lihat Source Code</a>."
+		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/SoulS-Game' target='__blank'>Lihat Source Code</a>."
 		
 	},
 	{
