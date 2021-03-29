@@ -1,4 +1,4 @@
-var countPortFolio = 11;
+var countPortFolio = 13;
 
 var dump=[];
 dump[countPortFolio - 1]=null;
@@ -19,11 +19,11 @@ function showModal(i){
 var modalData = [
 	{
 		id: 0,
-		header: "Loopprentice",
-		body: "Loopprentice merupakan website di mana anak-anak muda dapat berkarya dengan konten-konten yang seru dan menarik dari Telkomsel. " +
-		"Seperti Sosmed Challenge, Content Creator, KartuKamu, dan Merdeka Belajar yang pastinya keren abis..<br><br>" + 
+		header: "Loopprentice (GenX Squad)",
+		body: "Loopprentice atau GenX Squad merupakan website di mana anak-anak muda dapat berkarya dengan konten-konten yang seru dan menarik dari Telkomsel. " +
+		"Seperti Sosmed Challenge, Content Creator, KartuKamu, Merdeka Belajar, dan Genius Internship Student yang pastinya keren abis..<br><br>" + 
 		"Aplikasi ini dikembangkan oleh mas Farhan, mas Vebby, dan saya sendiri.<br><br>"+
-		"<a href='https://loopprentice.id' target='__blank'>Kunjungi loopprentice.id</a>"
+		"<a href='https://loopprentice.id' target='__blank'>Kunjungi loopprentice.id</a> atau <a href='https://gen-x.id' target='__blank'>gen-x.id</a>"
 	},
 	{
 		id: 1,
@@ -64,13 +64,13 @@ var modalData = [
 		header: "Miko and Sidog",
 		body: "Miko and Sidog merupakan game yang ditujukan untuk meramaikan event MAGE 2018 (Multimedia and Game Event 2018). <br>" +
 		"Game ini dikembangkan oleh divisi Desain & Web MAGE 2018, mas Habib sebagai design artist-nya, mas Billy dan saya sebagai programernya. <br><br>" +
-		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/miko' target='__blank'>Lihat Source Code</a>."
+		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/MikoAndSidog-Game' target='__blank'>Lihat Source Code</a>."
 	},
 	{
 		id: 7,
 		header: "Pendekin",
 		body: "Shorten your link, we serving the highly save for your click on the surfing, my friend..<br><br>" +
-		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/pendekin' target='__blank'>Lihat Source Code</a>."
+		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/Pendekin-ShortenLink' target='__blank'>Lihat Source Code</a>."
 	},
 	{
 		id: 8,
@@ -86,7 +86,7 @@ var modalData = [
 		body: "SoulS adalah game survival horor dengan menerapkan algoritma A* path finding pada NPC (enemy).<br>"+
 		"Di sini saya membuat game ini dari awal sampai akhir, dari desain karakter, penerapan algoritma path finding, music composer, dan programming. <br><br>"+
 		"Anda dapat mengunduh game tersebut pada link berikut <a href='https://www.dropbox.com/s/74wwizqytll45n9/souls.apk?dl=0' target='__blank'>Download</a>. <br>" + 
-		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/sstt-game' target='__blank'>Lihat Source Code</a>."
+		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/SoulS-Game' target='__blank'>Lihat Source Code</a>."
 		
 	},
 	{
@@ -94,5 +94,18 @@ var modalData = [
 		header: "Burgerr",
 		body: "Burgerr merupakan website order burger secara online, di mana pemesan dapat membuat burger-nya sendiri sesuai keinginan, dengan interaktif order berupa drag and drop.<br><br>"+
 		"Source code dapat dilihat pada link berikut <a href='https://github.com/9nine9/Burgerr' target='__blank'>Lihat Source Code</a>."
-	}
+	},
+	{
+		id: 11,
+		header: "Votechain",
+		body: "Votechain adalah sistem keamanan data rekapitulasi suara pemilu dengan menggunakan metode penyimpanan Blockchain secara bertingkat. " +
+		"<br><br>Sistem ini dikembangkan oleh saya sendiri untuk memenuhi Tugas Akhir saya."
+	},
+	{
+		id: 12,
+		header: "OBC",
+		body: "An Outbound Call (OBC) website yang dapat melakukan panggilan ke pelanggan atau prospek (calon pelanggan). " +
+		"<br><br>Tujuannya adalah untuk melakukan penjualan, menyediakan layanan pelanggan, atau melakukan penelitian untuk mendapatkan report pertumbuhan aktivitas." +
+		"<br><br>Aplikasi ini dikembangkan oleh mas Farhan, mas Vebby, dan saya sendiri."
+	},
 ];
